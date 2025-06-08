@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <title>AR Platform</title>
+
+    <!-- STYLE -->
+    <style>
+      body {
+        color: rgb(211, 239, 252);
+      }
+
+      h1 {
+        font-family: 'Roboto', 'Arial', sans-serif;
+      }
+    </style>
+
+    <!-- SKRYPTY DO AR -->
+    <script src="https://cdn.jsdelivr.net/npm/aframe@1.4.2/dist/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@nianticlabs/aframe-lightship/dist/aframe-lightship.min.js"></script>
+  </head>
+
+  <body>
+    <h1>AR Monkey Platform</h1>
+
+    <!-- SCENA A-FRAME (NA RAZIE PUSTA) -->
+    <a-scene lightship arjs embedded renderer="antialias: true;">
+      <a-entity camera></a-entity>
+      <a-entity light="type: ambient; color: #ffffff; intensity: 1"></a-entity>
+
+      <!-- 🚨 TUTAJ MOŻESZ DODAĆ MAŁPĘ LUB OBIEKT PNG PÓŹNIEJ -->
+    </a-scene>
+  </body>
+</html>
